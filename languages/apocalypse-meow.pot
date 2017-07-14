@@ -1,0 +1,3122 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"Apocalypse Meow\n"
+"POT-Creation-Date: "
+"2017-07-11 11:27-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: "
+"Blobfolio, LLC "
+"<hello@blobfolio.com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.0.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+"X-Poedit-"
+"SearchPathExcluded-0: "
+"node_modules\n"
+"X-Poedit-"
+"SearchPathExcluded-1: "
+"css\n"
+"X-Poedit-"
+"SearchPathExcluded-2: "
+"img\n"
+"X-Poedit-"
+"SearchPathExcluded-3: "
+"js\n"
+"X-Poedit-"
+"SearchPathExcluded-4: "
+"scss\n"
+"X-Poedit-"
+"SearchPathExcluded-5: "
+"lib/vendor\n"
+
+#: admin/activity.php:36
+#: admin/activity.php:138
+msgid "Date"
+msgstr ""
+
+#: admin/activity.php:37
+#: admin/activity.php:297
+#: lib/blobfolio/wp/meow/cli/activity.php:136
+#: lib/blobfolio/wp/meow/cli/activity.php:435
+#: lib/blobfolio/wp/meow/cli/jail.php:145
+#: lib/blobfolio/wp/meow/login.php:465
+msgid "IP"
+msgstr ""
+
+#: admin/activity.php:38
+#: admin/activity.php:139
+#: admin/activity.php:278
+#: admin/settings.php:759
+#: admin/tools.php:298
+msgid "Status"
+msgstr ""
+
+#: admin/activity.php:39
+#: admin/activity.php:141
+#: admin/activity.php:289
+#: lib/blobfolio/wp/meow/cli/activity.php:138
+#: lib/blobfolio/wp/meow/cli/activity.php:431
+msgid "Username"
+msgstr ""
+
+#: admin/activity.php:90
+msgid ""
+"If an offender was "
+"wrongly accused, you can "
+"set things right by "
+"issuing a pardon. That "
+"will instantly clear the "
+"ban so they can try to "
+"login again."
+msgstr ""
+
+#: admin/activity.php:92
+#, php-format
+msgid ""
+"Note: they will still be "
+"subject to future bans "
+"if they haven't learned "
+"their lesson. To prevent "
+"someone from repeatedly "
+"ending up in jail, add "
+"their IP or Subnet to "
+"the %s"
+msgstr ""
+
+#: admin/activity.php:93
+msgid "whitelist"
+msgstr ""
+
+#: admin/activity.php:102
+#: lib/blobfolio/wp/meow/admin.php:681
+msgid "Activity"
+msgstr ""
+
+#: admin/activity.php:107
+msgid ""
+"The login activity is "
+"being fetched. Hold "
+"tight."
+msgstr ""
+
+#: admin/activity.php:112
+#: admin/stats.php:71
+#, php-format
+msgid ""
+"Login data is currently "
+"pruned after %s. To "
+"change this going "
+"forward, visit the %s "
+"page."
+msgstr ""
+
+#: admin/activity.php:113
+#: admin/stats.php:72
+#, php-format
+msgid "%d day"
+msgstr ""
+
+#: admin/activity.php:113
+#: admin/stats.php:72
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: admin/activity.php:114
+#: admin/stats.php:73
+msgid "settings"
+msgstr ""
+
+#: admin/activity.php:129
+#: admin/stats.php:87
+#: lib/blobfolio/wp/meow/admin.php:497
+#: lib/blobfolio/wp/meow/admin.php:498
+msgid "Login Activity"
+msgstr ""
+
+#: admin/activity.php:133
+msgid ""
+"No records matched the "
+"search. Sorry."
+msgstr ""
+
+#: admin/activity.php:140
+msgid "Network"
+msgstr ""
+
+#: admin/activity.php:149
+#: lib/blobfolio/wp/meow/cli/activity.php:134
+#: lib/blobfolio/wp/meow/cli/activity.php:434
+#: lib/blobfolio/wp/meow/cli/jail.php:144
+msgid "Expires"
+msgstr ""
+
+#: admin/activity.php:155
+#: admin/settings.php:257
+msgid "Community Pool"
+msgstr ""
+
+#: admin/activity.php:174
+msgid "Back"
+msgstr ""
+
+#: admin/activity.php:179
+msgid "Next"
+msgstr ""
+
+#: admin/activity.php:193
+msgid "Login Jail"
+msgstr ""
+
+#: admin/activity.php:199
+msgid ""
+"Congratulations! Nobody "
+"is banned from the site "
+"at the moment. If that "
+"changes, you'll find "
+"them listed here."
+msgstr ""
+
+#: admin/activity.php:207
+msgid "Offender"
+msgstr ""
+
+#: admin/activity.php:226
+msgid "Pardon"
+msgstr ""
+
+#: admin/activity.php:242
+msgid "Export Activity"
+msgstr ""
+
+#: admin/activity.php:244
+msgid ""
+"Click the button below "
+"to generate a CSV "
+"containing all the login "
+"activity for your site."
+msgstr ""
+
+#: admin/activity.php:245
+#: admin/stats.php:241
+msgid ""
+"The CSV is being "
+"compiled. This might "
+"take a while if your "
+"site has a lot of data."
+msgstr ""
+
+#: admin/activity.php:247
+#: admin/stats.php:243
+msgid "Start Export"
+msgstr ""
+
+#: admin/activity.php:249
+#: admin/stats.php:245
+msgid "Download CSV"
+msgstr ""
+
+#: admin/activity.php:260
+#: admin/activity.php:333
+msgid "Search"
+msgstr ""
+
+#: admin/activity.php:266
+msgid "From"
+msgstr ""
+
+#: admin/activity.php:272
+msgid "To"
+msgstr ""
+
+#: admin/activity.php:282
+#: admin/stats.php:97
+#: lib/blobfolio/wp/meow/ajax.php:734
+msgid "Ban"
+msgstr ""
+
+#: admin/activity.php:283
+#: admin/stats.php:98
+#: lib/blobfolio/wp/meow/ajax.php:735
+msgid "Failure"
+msgstr ""
+
+#: admin/activity.php:284
+#: admin/stats.php:99
+#: lib/blobfolio/wp/meow/ajax.php:736
+msgid "Success"
+msgstr ""
+
+#: admin/activity.php:293
+msgid "Exact Match"
+msgstr ""
+
+#: admin/activity.php:303
+#: lib/blobfolio/wp/meow/cli/activity.php:137
+#: lib/blobfolio/wp/meow/cli/jail.php:146
+msgid "Subnet"
+msgstr ""
+
+#: admin/activity.php:309
+msgid "Page Size"
+msgstr ""
+
+#: admin/activity.php:313
+msgid ""
+"Search results are "
+"paginated. This value "
+"indicates how much you "
+"want to see per page."
+msgstr ""
+
+#: admin/activity.php:317
+msgid "Order By"
+msgstr ""
+
+#: admin/activity.php:325
+msgid "ASC"
+msgstr ""
+
+#: admin/activity.php:326
+msgid "DESC"
+msgstr ""
+
+#: admin/help.php:99
+msgid ""
+"The reference files are "
+"missing."
+msgstr ""
+
+#: admin/help.php:114
+#: admin/pro.php:139
+msgid "Help"
+msgstr ""
+
+#: admin/help.php:144
+msgid "Quick Links"
+msgstr ""
+
+#: admin/pro.php:34
+msgid "Premium License"
+msgstr ""
+
+#: admin/pro.php:41
+msgid ""
+"Please ask your system "
+"administrator to enable "
+"the OpenSSL PHP "
+"extension. Without this, "
+"your site will be unable "
+"to decode and validate "
+"the license details "
+"itself. In the meantime, "
+"Apocalypse Meow will try "
+"to offload this task to "
+"its own server. This "
+"should get the job done, "
+"but won't be as "
+"efficient and could "
+"impact performance a bit."
+msgstr ""
+
+#: admin/pro.php:47
+msgid ""
+"Your license has been "
+"saved!"
+msgstr ""
+
+#: admin/pro.php:56
+msgid "License Key"
+msgstr ""
+
+#: admin/pro.php:60
+msgid "Save"
+msgstr ""
+
+#: admin/pro.php:70
+msgid "The Pro Pitch"
+msgstr ""
+
+#: admin/pro.php:74
+#, php-format
+msgid ""
+"Apocalypse Meow's "
+"proactive security "
+"hardening and attack "
+"mitigation features are "
+"*free*. Forever. This is "
+"not about extortion. "
+"Haha. The %s is geared "
+"toward developers, "
+"system administrators, "
+"and general tech "
+"enthusiasts."
+msgstr ""
+
+#: admin/pro.php:78
+msgid ""
+" TL;DR it's about "
+"Workflow and Data:"
+msgstr ""
+
+#: admin/pro.php:81
+msgid ""
+"Easy data exports and "
+"visualizations;"
+msgstr ""
+
+#: admin/pro.php:82
+msgid ""
+"Complete WP-CLI "
+"integration;"
+msgstr ""
+
+#: admin/pro.php:83
+msgid ""
+"Advanced management "
+"tools for managing "
+"sessions, user "
+"passwords, renaming "
+"users, and more;"
+msgstr ""
+
+#: admin/pro.php:84
+msgid ""
+"Hookable actions and "
+"filters for custom theme/"
+"plugin integration;"
+msgstr ""
+
+#: admin/pro.php:88
+#, php-format
+msgid ""
+"To learn more, visit %s."
+msgstr ""
+
+#: admin/pro.php:96
+msgid "Your License"
+msgstr ""
+
+#: admin/pro.php:101
+#: lib/blobfolio/wp/meow/cli/activity.php:133
+#: lib/blobfolio/wp/meow/cli/activity.php:433
+#: lib/blobfolio/wp/meow/cli/jail.php:143
+msgid "Created"
+msgstr ""
+
+#: admin/pro.php:105
+msgid "Updated"
+msgstr ""
+
+#: admin/pro.php:109
+msgid "Revoked"
+msgstr ""
+
+#: admin/pro.php:113
+#: lib/blobfolio/wp/meow/cli.php:89
+msgid "Name"
+msgstr ""
+
+#: admin/pro.php:117
+#: lib/blobfolio/wp/meow/cli.php:77
+msgid "Company"
+msgstr ""
+
+#: admin/pro.php:121
+#: lib/blobfolio/wp/meow/cli.php:82
+#: lib/blobfolio/wp/meow/cli/activity.php:430
+msgid "Email"
+msgstr ""
+
+#: admin/pro.php:125
+#: lib/blobfolio/wp/meow/cli.php:96
+#: lib/blobfolio/wp/meow/cli/activity.php:135
+msgid "Type"
+msgstr ""
+
+#: admin/pro.php:129
+msgid "Thing"
+msgstr ""
+
+#: admin/pro.php:133
+msgid "Domain(s)"
+msgstr ""
+
+#: admin/pro.php:141
+msgid ""
+"Thanks for going Pro!"
+msgstr ""
+
+#: admin/pro.php:144
+#, php-format
+msgid ""
+"If you have any "
+"questions or need help, "
+"visit %s."
+msgstr ""
+
+#: admin/pro.php:165
+#: admin/settings.php:683
+#, php-format
+msgid "Impressed with %s?"
+msgstr ""
+
+#: admin/pro.php:166
+#: admin/settings.php:684
+#, php-format
+msgid ""
+"You might also enjoy "
+"these other fine and "
+"practical plugins from "
+"%s."
+msgstr ""
+
+#: admin/settings.php:42
+#, php-format
+msgid ""
+"%s robots visit "
+"WordPress dozens of "
+"times each day, "
+"attempting to guess "
+"their way into wp-admin. "
+"WordPress makes no "
+"attempt to mitigate "
+"this, allowing a single "
+"robot to try combination "
+"after combination until "
+"they succeed."
+msgstr ""
+
+#: admin/settings.php:43
+msgid "Brute-force"
+msgstr ""
+
+#: admin/settings.php:45
+msgid ""
+"Apocalypse Meow keeps "
+"track of login attempts "
+"and will temporarily ban "
+"any person or robot who "
+"has failed too much, too "
+"fast. This is critical "
+"set-and-forget "
+"protection."
+msgstr ""
+
+#: admin/settings.php:48
+msgid ""
+"This is the maximum "
+"number of login failures "
+"allowed for a given IP "
+"before the login process "
+"is disabled for that "
+"individual."
+msgstr ""
+
+#: admin/settings.php:52
+#, php-format
+msgid ""
+"Sometimes attacks come "
+"from multiple IPs on the "
+"same network. This limit "
+"applies to the number of "
+"failures attributed to a "
+"network subnet (%s for "
+"IPv4 and %s for IPv6). "
+"It is recommended you "
+"set this value 4-5x "
+"higher than the "
+"individual fail limit."
+msgstr ""
+
+#: admin/settings.php:58
+msgid ""
+"An individual IP or "
+"entire network subnet "
+"will be banned from "
+"logging in whenever "
+"their total number of "
+"failures within this "
+"window exceeds the fail "
+"limits."
+msgstr ""
+
+#: admin/settings.php:59
+msgid ""
+"The ban lasts as long as "
+"this is true, and will "
+"reset when the earliest "
+"of the counted failures "
+"grows old enough to fall "
+"outside the window. "
+"Remaining failures, if "
+"any, that are still "
+"within the window will "
+"continue to be matched "
+"against the fail limits."
+msgstr ""
+
+#: admin/settings.php:60
+msgid ""
+"For reference, the "
+"default value of 720 "
+"translates to 12 hours."
+msgstr ""
+
+#: admin/settings.php:63
+msgid ""
+"When someone "
+"successfully logs in, "
+"their prior failures are "
+"no longer counted "
+"against them, even if "
+"those failures are still "
+"within the window."
+msgstr ""
+
+#: admin/settings.php:67
+#, php-format
+msgid ""
+"Most servers report the "
+"remote visitor's IP "
+"address using the %s "
+"key, but if yours is "
+"living behind a proxy, "
+"the IP information might "
+"live somewhere else. If "
+"you aren't sure what to "
+"do, look for your IP "
+"address in the list."
+msgstr ""
+
+#: admin/settings.php:70
+msgid ""
+"Note: visitor IP "
+"information forwarded "
+"from a proxy is not "
+"trustworthy because it "
+"is populated via request "
+"headers, which can be "
+"forged. Depending on the "
+"setup of your particular "
+"environment, this may "
+"make it impossible to "
+"effectively mitigate "
+"brute-force attacks."
+msgstr ""
+
+#: admin/settings.php:73
+msgid ""
+"It is very important you "
+"avoid getting yourself "
+"or your coworkers banned "
+"(the latter happens "
+"frequently in office "
+"environments where "
+"multiple employees fail "
+"around the same time). "
+"You should whitelist any "
+"IP addresses, ranges, or "
+"subnets from which you "
+"will be connecting."
+msgstr ""
+
+#: admin/settings.php:77
+#, php-format
+msgid ""
+"This option adds a "
+"hidden field to the "
+"standard %s form to help "
+"ensure that login "
+"attempts are actually "
+"originating there "
+"(rather than coming out "
+"of the blue, as is "
+"typical of robotic "
+"assaults)."
+msgstr ""
+
+#: admin/settings.php:80
+msgid ""
+"*Do not* enable this "
+"option if your site uses "
+"custom login forms or if "
+"the login page is cached."
+msgstr ""
+
+#: admin/settings.php:81
+msgid ""
+"Note: stale cookies from "
+"past visits might "
+"ocassionally trigger a "
+"Nonce failure on the "
+"first login attempt. "
+"WordPress should refresh "
+"the Nonce value during "
+"that first post, so it "
+"should work on the "
+"second go-around."
+msgstr ""
+
+#: admin/settings.php:84
+msgid ""
+"This will send an email "
+"to the account user "
+"whenever access is "
+"granted to an IP address "
+"that has not "
+"successfully logged in "
+"before."
+msgstr ""
+
+#: admin/settings.php:85
+msgid ""
+"Note: this depends on "
+"the data logged by the "
+"plugin, so if you have "
+"configured a short "
+"retention time, it may "
+"not be very useful."
+msgstr ""
+
+#: admin/settings.php:88
+msgid ""
+"This will cause the "
+"email alert function to "
+"use subnets rather than "
+"individual IPs when "
+"determining \"newness\". "
+"This setting is "
+"recommended for IPv6 "
+"users in particular as "
+"their IPs will change "
+"frequently."
+msgstr ""
+
+#: admin/settings.php:91
+msgid ""
+"Strong, unique passwords "
+"are critical for "
+"security. For historical "
+"reasons, WordPress still "
+"allows users to choose "
+"unsafe passwords for "
+"themselves. These "
+"options set some basic "
+"boundaries."
+msgstr ""
+
+#: admin/settings.php:92
+msgid ""
+"Note: because WordPress "
+"passwords are encrypted, "
+"it is not possible to "
+"apply these settings "
+"retroactively. However "
+"when users log in, if "
+"their passwords are "
+"unsafe, they will be "
+"directed to change it."
+msgstr ""
+
+#: admin/settings.php:95
+msgid ""
+"Whether or not a "
+"password must have "
+"letters in it. The third "
+"option, \"UPPER & lower"
+"\", requires a password "
+"contain a mixture of "
+"both upper- and "
+"lowercase letters."
+msgstr ""
+
+#: admin/settings.php:98
+msgid ""
+"Whether or not a "
+"password must have "
+"numbers in it."
+msgstr ""
+
+#: admin/settings.php:101
+msgid ""
+"Whether or not a "
+"password must have non-"
+"alphanumeric characters "
+"in it, like a cartoon "
+"curse word: $!#*()%."
+msgstr ""
+
+#: admin/settings.php:104
+msgid ""
+"This sets a minimum "
+"length requirement for "
+"passwords. The plugin's "
+"own minimum minimum (how "
+"low you are allowed to "
+"set it) is subject to "
+"change as technology "
+"advances. If your entry "
+"falls below the times, "
+"it will be adjusted "
+"automatically."
+msgstr ""
+
+#: admin/settings.php:107
+msgid ""
+"Apocalypse Meow "
+"automatically prevents "
+"users from choosing any "
+"of the top 100K most "
+"common passwords. This "
+"protection is mandatory "
+"and cannot be "
+"disabled. ;)"
+msgstr ""
+
+#: admin/settings.php:110
+msgid ""
+"Out-of-the-Box, certain "
+"WordPress features and "
+"frontend oversights on "
+"the part of theme and "
+"plugin developers, can "
+"inadvertently place "
+"sites at greater risk of "
+"being successfully "
+"exploited by a hacker."
+msgstr ""
+
+#: admin/settings.php:111
+msgid ""
+"Please make sure you "
+"read about each option "
+"before flipping any "
+"switches. While each of "
+"these items mitigates a "
+"threat, some threats are "
+"more threatening than "
+"others, and if your "
+"workflow depends on "
+"something you disable "
+"here, that might make "
+"life sad."
+msgstr ""
+
+#: admin/settings.php:115
+#, php-format
+msgid ""
+"%s is a new feature "
+"within WordPress that "
+"provides %s API access "
+"to view or update site "
+"content. Depending on "
+"who you ask, this is "
+"either a dream come true "
+"or a complete shitshow."
+msgstr ""
+
+#: admin/settings.php:119
+msgid ""
+"But hackers universally "
+"love it. Not only does "
+"it vastly streamline "
+"reconnaissance, it also "
+"extends the software's "
+"attack surface, "
+"providing all new "
+"avenues for exploitation."
+msgstr ""
+
+#: admin/settings.php:120
+msgid ""
+"WordPress no longer "
+"allows WP-REST to be "
+"fully disabled, so "
+"Apocalypse Meow gives "
+"you the next best thing: "
+"the ability to restrict "
+"*access* to it. If you "
+"aren't using this "
+"feature at all, please "
+"set the access to "
+"\"Nobody\" to limit your "
+"exposure."
+msgstr ""
+
+#: admin/settings.php:123
+msgid ""
+"WordPress adds "
+"information about next "
+"and previous posts in "
+"the HTML <head>. This "
+"isn't usually a big "
+"deal, but can help "
+"robots find pages you "
+"thought were private. "
+"This is just robot food, "
+"so you can safely remove "
+"it."
+msgstr ""
+
+#: admin/settings.php:126
+msgid ""
+"WordPress comes with the "
+"ability to edit theme "
+"and plugin files "
+"directly through the "
+"browser. If an attacker "
+"gains access to "
+"WordPress, they too can "
+"make such changes."
+msgstr ""
+
+#: admin/settings.php:127
+msgid ""
+"Please just use FTP to "
+"push code changes to the "
+"site. Haha."
+msgstr ""
+
+#: admin/settings.php:134
+msgid ""
+"By default, WordPress "
+"embeds a version tag in "
+"the HTML <head>. While "
+"this information is "
+"largely innocuous (and "
+"discoverable elsewhere), "
+"it can help nogoodniks "
+"better target attacks "
+"against your site. Since "
+"this is really only "
+"something a robot would "
+"see, it is safe to "
+"remove."
+msgstr ""
+
+#: admin/settings.php:137
+msgid ""
+"WordPress releases "
+"include a publicly "
+"accessible file "
+"detailing the version "
+"information. This is one "
+"of the first things a "
+"hacker will look for as "
+"it will help them better "
+"target their attacks."
+msgstr ""
+
+#: admin/settings.php:140
+#, php-format
+msgid ""
+"Click %s to view yours."
+msgstr ""
+
+#: admin/settings.php:141
+#: admin/settings.php:149
+#: admin/settings.php:150
+msgid "here"
+msgstr ""
+
+#: admin/settings.php:142
+msgid ""
+"Your site does not have "
+"one right now. Woo!"
+msgstr ""
+
+#: admin/settings.php:147
+#, php-format
+msgid ""
+"Any links on your site "
+"that open in a new "
+"window (e.g. %s) could "
+"potentially trigger a "
+"redirect in *your* "
+"site's window. This "
+"opens the door to some "
+"sneaky phishing attacks. "
+"See %s and %s for more "
+"information."
+msgstr ""
+
+#: admin/settings.php:153
+#, php-format
+msgid ""
+"This option adds %s to "
+"vulnerable links on your "
+"site, which is meant to "
+"disable this capability. "
+"It is a lightweight and "
+"non-destructive "
+"approach, but doesn't "
+"protect all browsers."
+msgstr ""
+
+#: admin/settings.php:157
+#, php-format
+msgid ""
+"For a more comprehensive "
+"solution, take a look at "
+"%s."
+msgstr ""
+
+#: admin/settings.php:163
+#, php-format
+msgid ""
+"Ever wonder how a robot "
+"guessed your username? "
+"There's a neat trick "
+"that exploits a weakness "
+"in WordPress' permalink "
+"rewriting: visit %s and "
+"you should be redirected "
+"to a pretty URL ending "
+"in your username (unless "
+"Apocalypse Meow stops "
+"it). Robots simply try "
+"%s, %s, etc."
+msgstr ""
+
+#: admin/settings.php:171
+#, php-format
+msgid ""
+"This setting blacklists "
+"the %s query variable so "
+"it cannot be used by "
+"robots… or anyone. Do "
+"not enable this setting "
+"if any of your themes or "
+"plugins lazy-link to an "
+"author's ID instead of "
+"their actual archive URL."
+msgstr ""
+
+#: admin/settings.php:175
+#, php-format
+msgid ""
+"Note: this setting will "
+"also disable the WP-REST "
+"%s endpoint in WordPress "
+"versions 4.7+. To "
+"restrict API requests "
+"for user information in "
+"earlier versions, alter "
+"the WP-REST access "
+"setting at the top of "
+"this section."
+msgstr ""
+
+#: admin/settings.php:181
+#, php-format
+msgid ""
+"By default, this plugin "
+"simply redirects any %s "
+"requests to the home "
+"page. But if you enable "
+"this option, it will "
+"instead trigger a 400 "
+"error and exit. This "
+"approach uses fewer "
+"resources and can more "
+"easily integrate with "
+"general log-monitoring "
+"policies."
+msgstr ""
+
+#: admin/settings.php:184
+msgid ""
+"Note: WP-REST requests "
+"will always result in an "
+"API error."
+msgstr ""
+
+#: admin/settings.php:187
+msgid ""
+"When enabled, user "
+"enumeration attempts "
+"will be counted as login "
+"failures. You probably "
+"want to enable this as "
+"user enumeration usually "
+"precedes a login attack."
+msgstr ""
+
+#: admin/settings.php:189
+#, php-format
+msgid ""
+"For tracking purposes, "
+"the \"username\" for "
+"these log entries will "
+"always read \"%s\"."
+msgstr ""
+
+#: admin/settings.php:195
+#, php-format
+msgid ""
+"WordPress comes with an "
+"%s API to let users "
+"manage their blog "
+"content from mobile apps "
+"and other web sites. "
+"This is good stuff, but "
+"is also a common (and "
+"powerful) entry point "
+"for hackers. If you "
+"aren't using it, disable "
+"it."
+msgstr ""
+
+#: admin/settings.php:199
+#, php-format
+msgid ""
+"Some plugins, like %s, "
+"will not work correctly "
+"with XML-RPC disabled. "
+"If something breaks, "
+"just re-enable it."
+msgstr ""
+
+#: admin/settings.php:204
+msgid ""
+"Brute-force login "
+"prevention relies on "
+"record-keeping. Over "
+"time, with lots of "
+"activity, that data "
+"might start to pose "
+"storage or performance "
+"problems. Apocalypse "
+"Meow can be configured "
+"to automatically remove "
+"old data."
+msgstr ""
+
+#: admin/settings.php:207
+msgid ""
+"Enable this option to "
+"ease your server of the "
+"burden of keeping "
+"indefinite login "
+"activity records."
+msgstr ""
+
+#: admin/settings.php:210
+msgid ""
+"Data older than this "
+"will be automatically "
+"pruned. It's a balance. "
+"Don't be too stingy or "
+"features like New Login "
+"Alerts won't be as "
+"effective. For most "
+"sites, it is a good idea "
+"to maintain at least 3 "
+"months worth of data."
+msgstr ""
+
+#: admin/settings.php:244
+#: admin/settings.php:255
+#: lib/blobfolio/wp/meow/admin.php:468
+#: lib/blobfolio/wp/meow/admin.php:469
+#: lib/blobfolio/wp/meow/admin.php:678
+msgid "Settings"
+msgstr ""
+
+#: admin/settings.php:248
+msgid ""
+"Your settings have been "
+"saved!"
+msgstr ""
+
+#: admin/settings.php:260
+msgid "WP-Config"
+msgstr ""
+
+#: admin/settings.php:283
+msgid ""
+"Brute-Force Protection"
+msgstr ""
+
+#: admin/settings.php:289
+msgid "Fail Limit"
+msgstr ""
+
+#: admin/settings.php:297
+msgid "Subnet Fail Limit"
+msgstr ""
+
+#: admin/settings.php:305
+msgid "Fail Window"
+msgstr ""
+
+#: admin/settings.php:311
+msgid "minutes"
+msgstr ""
+
+#: admin/settings.php:317
+msgid "Reset on Success"
+msgstr ""
+
+#: admin/settings.php:328
+msgid "Remote IP/Proxy"
+msgstr ""
+
+#: admin/settings.php:346
+msgid "Whitelist"
+msgstr ""
+
+#: admin/settings.php:354
+msgid ""
+"Enter an IP or range, "
+"one per line. Accepted "
+"formats:"
+msgstr ""
+
+#: admin/settings.php:366
+msgid "Your IP address is"
+msgstr ""
+
+#: admin/settings.php:368
+msgid ""
+"Your network subnet is"
+msgstr ""
+
+#: admin/settings.php:373
+msgid ""
+"Your IP address cannot "
+"be determined right now. "
+"That either means you "
+"are on the same network "
+"as the server, or the "
+"proxy key is not correct."
+msgstr ""
+
+#: admin/settings.php:382
+msgid "Add Login Nonce"
+msgstr ""
+
+#: admin/settings.php:391
+msgid ""
+"Email Alert: New Login IP"
+msgstr ""
+
+#: admin/settings.php:400
+msgid ""
+"Email Alert: New Subnet "
+"Only"
+msgstr ""
+
+#: admin/settings.php:418
+msgid "Data Retention"
+msgstr ""
+
+#: admin/settings.php:425
+msgid "Prune Old Data"
+msgstr ""
+
+#: admin/settings.php:432
+msgid "Data Expiration"
+msgstr ""
+
+#: admin/settings.php:438
+msgid "days"
+msgstr ""
+
+#: admin/settings.php:452
+msgid ""
+"Password Requirements"
+msgstr ""
+
+#: admin/settings.php:458
+msgid "Letters"
+msgstr ""
+
+#: admin/settings.php:463
+#: admin/settings.php:475
+#: admin/settings.php:486
+msgid "Optional"
+msgstr ""
+
+#: admin/settings.php:464
+#: admin/settings.php:476
+#: admin/settings.php:487
+msgid "Required"
+msgstr ""
+
+#: admin/settings.php:465
+msgid "UPPER & lower"
+msgstr ""
+
+#: admin/settings.php:470
+msgid "Numbers"
+msgstr ""
+
+#: admin/settings.php:481
+msgid "Symbols"
+msgstr ""
+
+#: admin/settings.php:492
+msgid "Minimum Length"
+msgstr ""
+
+#: admin/settings.php:502
+msgid ""
+"Block Common Passwords"
+msgstr ""
+
+#: admin/settings.php:520
+#: lib/blobfolio/wp/meow/ajax.php:341
+#: lib/blobfolio/wp/meow/cli/activity.php:198
+msgid "User Enumeration"
+msgstr ""
+
+#: admin/settings.php:528
+msgid ""
+"Prevent User Enumeration"
+msgstr ""
+
+#: admin/settings.php:537
+msgid ""
+"Error Instead of Redirect"
+msgstr ""
+
+#: admin/settings.php:546
+msgid ""
+"Track Enumeration "
+"Failures"
+msgstr ""
+
+#: admin/settings.php:564
+msgid ""
+"Core & Template Overrides"
+msgstr ""
+
+#: admin/settings.php:570
+msgid "WP-REST Access"
+msgstr ""
+
+#: admin/settings.php:575
+msgid "Default"
+msgstr ""
+
+#: admin/settings.php:576
+msgid "Only WP Users"
+msgstr ""
+
+#: admin/settings.php:577
+msgid "Nobody"
+msgstr ""
+
+#: admin/settings.php:584
+msgid ""
+"Remove Adjacent Post Tags"
+msgstr ""
+
+#: admin/settings.php:593
+msgid "Disable File Editor"
+msgstr ""
+
+#: admin/settings.php:602
+msgid ""
+"Remove \"Generator\" Tag"
+msgstr ""
+
+#: admin/settings.php:611
+msgid ""
+"Delete \"readme.html\""
+msgstr ""
+
+#: admin/settings.php:620
+msgid "rel=\"noopener\""
+msgstr ""
+
+#: admin/settings.php:629
+msgid "Disable XML-RPC"
+msgstr ""
+
+#: admin/settings.php:648
+msgid "Save Settings"
+msgstr ""
+
+#: admin/settings.php:660
+#, php-format
+msgid ""
+"Note: some settings have "
+"been hard-coded into "
+"this site's %s and "
+"cannot be edited here. "
+"Such fields will have a "
+"somewhat ghostly "
+"appearance."
+msgstr ""
+
+#: admin/settings.php:661
+msgid "wp-config.php"
+msgstr ""
+
+#: admin/settings.php:726
+msgid "About the Pool"
+msgstr ""
+
+#: admin/settings.php:731
+msgid ""
+"The Community Pool is an "
+"*optional* extension to "
+"the brute-force login "
+"protection that combines "
+"attack data from your "
+"site with other sites "
+"running in pool mode to "
+"produce a global "
+"blocklist."
+msgstr ""
+
+#: admin/settings.php:733
+msgid ""
+"In other words, an "
+"attack against one "
+"becomes an attack "
+"against all!"
+msgstr ""
+
+#: admin/settings.php:735
+msgid ""
+"When enabled, your site "
+"will periodically share "
+"its attack data with the "
+"centralized Meow API. "
+"The Meow API will crunch "
+"and combine this data "
+"and return a community "
+"blocklist, which your "
+"site will then integrate "
+"with its own bans."
+msgstr ""
+
+#: admin/settings.php:737
+msgid ""
+"The blocklist data is "
+"conservatively filtered "
+"using a tiered and "
+"weighted ranking system "
+"based on activity shared "
+"within the past 24 "
+"hours. For an IP address "
+"to be eligible for "
+"community banning, it "
+"must be independently "
+"reported from multiple "
+"sources and have a "
+"significant number of "
+"total failures."
+msgstr ""
+
+#: admin/settings.php:739
+msgid ""
+"Your site's whitelist is "
+"always respected. "
+"Failures from "
+"whitelisted IPs will "
+"never be sent to the "
+"pool, and if the pool "
+"declares a ban for an IP "
+"you have whitelisted, "
+"your site will not ban "
+"it. Be sure to add your "
+"own IP address to your "
+"site's whitelist. :)"
+msgstr ""
+
+#: admin/settings.php:741
+msgid ""
+"Anybody can join the "
+"Community Pool. There's "
+"just one requirement:"
+msgstr ""
+
+#: admin/settings.php:741
+msgid ""
+"To Receive, Your Must "
+"Give."
+msgstr ""
+
+#: admin/settings.php:741
+msgid ""
+"It is, after all, a "
+"community. Haha."
+msgstr ""
+
+#: admin/settings.php:754
+msgid "Community Status"
+msgstr ""
+
+#: admin/settings.php:760
+msgid "Enabled"
+msgstr ""
+
+#: admin/settings.php:761
+msgid "Disabled"
+msgstr ""
+
+#: admin/settings.php:766
+msgid "Leave Community"
+msgstr ""
+
+#: admin/settings.php:767
+msgid "Join Community"
+msgstr ""
+
+#: admin/settings.php:772
+#, php-format
+msgid ""
+"The Community Pool "
+"setting has been hard-"
+"coded into your site "
+"configuration (probably "
+"in %s). To change the "
+"status, that code will "
+"have to be altered."
+msgstr ""
+
+#: admin/settings.php:794
+msgid "Privacy Notice"
+msgstr ""
+
+#: admin/settings.php:797
+msgid ""
+"Information about your "
+"site is *never* shared "
+"with other Community "
+"Pool participants. The "
+"Meow API acts as a go-"
+"between."
+msgstr ""
+
+#: admin/settings.php:799
+msgid ""
+"But that said, this is "
+"not usually data that "
+"would be leaving your "
+"site, so if you are not "
+"comfortable with the "
+"idea, please leave this "
+"feature disabled!"
+msgstr ""
+
+#: admin/settings.php:806
+msgid "Login Failures"
+msgstr ""
+
+#: admin/settings.php:810
+msgid "A UTC timestamp"
+msgstr ""
+
+#: admin/settings.php:811
+msgid "An IP address"
+msgstr ""
+
+#: admin/settings.php:813
+#, php-format
+msgid ""
+"Whether or not the "
+"username was %s or %s"
+msgstr ""
+
+#: admin/settings.php:819
+msgid ""
+"The following details "
+"from failed login "
+"attempts are shared:"
+msgstr ""
+
+#: admin/settings.php:826
+msgid "Environment/Setup"
+msgstr ""
+
+#: admin/settings.php:831
+msgid ""
+"Aside from attack data, "
+"the API also collects "
+"some basic information "
+"about your site setup. "
+"This is done primarily "
+"to help the API keep its "
+"data sources straight, "
+"but might also help "
+"inform what sorts of "
+"future features would be "
+"most helpful to develop."
+msgstr ""
+
+#: admin/settings.php:832
+msgid ""
+"This information is "
+"*only* used internally — "
+"and not very sensitive "
+"to begin with — but you "
+"should still be aware it "
+"is being leaked. :)"
+msgstr ""
+
+#: admin/settings.php:840
+msgid "Domain"
+msgstr ""
+
+#: admin/settings.php:841
+msgid "OS"
+msgstr ""
+
+#: admin/settings.php:842
+msgid "PHP"
+msgstr ""
+
+#: admin/settings.php:843
+#: lib/blobfolio/wp/meow/cli.php:98
+msgid "WordPress"
+msgstr ""
+
+#: admin/settings.php:844
+msgid "This Plugin"
+msgstr ""
+
+#: admin/settings.php:845
+#: lib/blobfolio/wp/meow/cli.php:92
+msgid "Premium"
+msgstr ""
+
+#: admin/settings.php:845
+#: lib/blobfolio/wp/meow/cli.php:99
+#: lib/blobfolio/wp/meow/cli/activity.php:191
+#: lib/blobfolio/wp/meow/cli/jail.php:137
+#: lib/blobfolio/wp/meow/cli/settings.php:230
+msgid "Yes"
+msgstr ""
+
+#: admin/settings.php:845
+#: lib/blobfolio/wp/meow/cli.php:90
+msgid "No"
+msgstr ""
+
+#: admin/settings.php:846
+msgid "Locale"
+msgstr ""
+
+#: admin/settings.php:847
+#: lib/blobfolio/wp/meow/cli.php:95
+msgid "Timezone"
+msgstr ""
+
+#: admin/settings.php:876
+msgid ""
+"Configuration Constants"
+msgstr ""
+
+#: admin/settings.php:889
+msgid "Explanation"
+msgstr ""
+
+#: admin/settings.php:895
+#, php-format
+msgid ""
+"Almost all of the plugin "
+"settings can "
+"alternatively be defined "
+"as PHP constants in %s. "
+"This allows system "
+"administrators to "
+"configure behaviors "
+"without logging into "
+"WordPress, and prevents "
+"those configurations "
+"from being changed by "
+"other users with access "
+"to this page."
+msgstr ""
+
+#: admin/settings.php:899
+#, php-format
+msgid ""
+"This code sample "
+"contains the "
+"corresponding PHP code "
+"for every setting as "
+"currently configured. It "
+"can be copied as-is to "
+"%s, or certain pieces "
+"can be removed or "
+"tweaked as needed. Any "
+"options that site "
+"administrators should be "
+"allowed to change "
+"through this page should "
+"first be removed."
+msgstr ""
+
+#: admin/settings.php:903
+#, php-format
+msgid ""
+"Note: while PHP "
+"constants can be shoved "
+"pretty much anywhere, "
+"these must be loaded "
+"into memory before the "
+"%s hook is fired or "
+"Apocalypse Meow might "
+"not see them. %s is the "
+"safest bet."
+msgstr ""
+
+#: admin/stats.php:43
+msgid ""
+"This indicates the "
+"average number of login "
+"attempts made *while "
+"banned*. This number can "
+"be high if your site is "
+"routinely attacked by "
+"stupid robots."
+msgstr ""
+
+#: admin/stats.php:46
+msgid ""
+"This shows the total "
+"number of unique "
+"usernames submitted "
+"during failed login "
+"attempts."
+msgstr ""
+
+#: admin/stats.php:47
+msgid ""
+"Note: WordPress allows "
+"users to login using "
+"either their username or "
+"email address. This "
+"plugin normalizes all "
+"entries to the username "
+"to keep things tidy."
+msgstr ""
+
+#: admin/stats.php:50
+msgid ""
+"This shows the "
+"percentage of failed "
+"login attempts using non-"
+"existent usernames. "
+"While such attempts are "
+"fruitless, they do still "
+"represent a waste in "
+"server resources."
+msgstr ""
+
+#: admin/stats.php:53
+msgid ""
+"This shows the "
+"percentage of failed "
+"login attempts using "
+"*valid* usernames. Left "
+"unchecked, a robot could "
+"eventually gain access "
+"to the site."
+msgstr ""
+
+#: admin/stats.php:61
+msgid "Stats"
+msgstr ""
+
+#: admin/stats.php:65
+msgid ""
+"The stats are being "
+"crunched. Hold tight."
+msgstr ""
+
+#: admin/stats.php:66
+msgid ""
+"No stats were found."
+msgstr ""
+
+#: admin/stats.php:110
+msgid "Breakdown"
+msgstr ""
+
+#: admin/stats.php:115
+msgid "General"
+msgstr ""
+
+#: admin/stats.php:116
+msgid "Failures"
+msgstr ""
+
+#: admin/stats.php:117
+msgid "Bans"
+msgstr ""
+
+#: admin/stats.php:126
+#: admin/stats.php:152
+#: admin/stats.php:202
+msgid "Total"
+msgstr ""
+
+#: admin/stats.php:130
+msgid "First"
+msgstr ""
+
+#: admin/stats.php:134
+msgid "Last"
+msgstr ""
+
+#: admin/stats.php:138
+msgid "# Days"
+msgstr ""
+
+#: admin/stats.php:142
+#: admin/stats.php:156
+#: admin/stats.php:206
+msgid "Daily Avg"
+msgstr ""
+
+#: admin/stats.php:161
+msgid "Unique Usernames"
+msgstr ""
+
+#: admin/stats.php:168
+msgid "Valid Users"
+msgstr ""
+
+#: admin/stats.php:176
+msgid "w/ Invalid Username"
+msgstr ""
+
+#: admin/stats.php:183
+msgid ""
+"Enumeration Attempts"
+msgstr ""
+
+#: admin/stats.php:187
+msgid "Unique IPs"
+msgstr ""
+
+#: admin/stats.php:191
+msgid "Unique Subnets"
+msgstr ""
+
+#: admin/stats.php:196
+msgid ""
+"No failures have been "
+"recorded."
+msgstr ""
+
+#: admin/stats.php:210
+msgid "Pardons"
+msgstr ""
+
+#: admin/stats.php:215
+msgid "While Banned"
+msgstr ""
+
+#: admin/stats.php:223
+msgid ""
+"No bans have been "
+"recorded."
+msgstr ""
+
+#: admin/stats.php:238
+msgid "Export Data"
+msgstr ""
+
+#: admin/stats.php:240
+msgid ""
+"Click the button below "
+"to generate a CSV "
+"containing all the login "
+"data for your site."
+msgstr ""
+
+#: admin/stats.php:253
+msgid "Activity by Type"
+msgstr ""
+
+#: admin/stats.php:268
+msgid ""
+"Failures by Username"
+msgstr ""
+
+#: admin/stats.php:283
+msgid ""
+"Failures by Network Type"
+msgstr ""
+
+#: admin/tools.php:41
+#, php-format
+msgid ""
+"The %s system "
+"administrator has reset "
+"all user passwords."
+msgstr ""
+
+#: admin/tools.php:44
+msgid ""
+"To regain access to your "
+"account, visit the "
+"following link and "
+"choose a new password:"
+msgstr ""
+
+#: admin/tools.php:83
+msgid ""
+"For historical reasons, "
+"WordPress has retained "
+"backward compatibility "
+"with the outdated %s "
+"hashing algorithm. "
+"Should a hacker obtain a "
+"copy of your % table, "
+"any user with an MD5-"
+"hashed password could be "
+"in serious trouble."
+msgstr ""
+
+#: admin/tools.php:87
+msgid ""
+"This tool will securely "
+"rehash any insecure MD5 "
+"password hashes in the "
+"database. This will lock "
+"affected users out of "
+"their account (until "
+"they reset their "
+"passwords), however "
+"these users have likely "
+"been absent from the "
+"site for many years."
+msgstr ""
+
+#: admin/tools.php:91
+msgid ""
+"This will immediately "
+"reset all user passwords "
+"site-wide. To regain "
+"account access, each "
+"user will need to "
+"complete the \"Forgot "
+"Password\" process."
+msgstr ""
+
+#: admin/tools.php:92
+msgid ""
+"If your site or database "
+"has been breached, or "
+"you suspect it has, run "
+"this tool immediately."
+msgstr ""
+
+#: admin/tools.php:95
+msgid ""
+"Check this box if you "
+"wish to start the "
+"\"Forgot Password\" "
+"process on behalf of "
+"users. They'll each be "
+"sent an email with the "
+"message you specify and "
+"a link to choose a new "
+"password. This is a user-"
+"friendly choice, but "
+"there are a few "
+"downsides to consider:"
+msgstr ""
+
+#: admin/tools.php:96
+msgid ""
+"Sending lots and lots of "
+"emails can take a long "
+"time."
+msgstr ""
+
+#: admin/tools.php:97
+msgid ""
+"Sending lots and lots of "
+"emails might violate "
+"your hosting provider's "
+"ToS."
+msgstr ""
+
+#: admin/tools.php:98
+msgid ""
+"The reset links will be "
+"transmitted in plain "
+"text across an insecure "
+"channel (i.e. email); "
+"they could be "
+"intercepted by third "
+"parties and used to gain "
+"unauthorized account "
+"access."
+msgstr ""
+
+#: admin/tools.php:100
+#, php-format
+msgid ""
+"Note: this plugin "
+"implements its own "
+"version of the %s "
+"function to make it more "
+"performant at scale. As "
+"a consequence, it does "
+"not trigger all of the "
+"action/filter hooks the "
+"WP version does. If for "
+"some reason your site is "
+"relying on any of these "
+"obscure hooks, this "
+"option should probably "
+"be avoided."
+msgstr ""
+
+#: admin/tools.php:105
+msgid ""
+"The majority of "
+"WordPress sites have a "
+"user called \"admin\" or "
+"\"administrator\", and "
+"almost all brute-force "
+"attacks specifically "
+"target one or the other. "
+"You should rename these "
+"users immediately to "
+"moot such attacks."
+msgstr ""
+
+#: admin/tools.php:108
+msgid ""
+"WordPress generates a "
+"unique Session ID each "
+"time a user logs into "
+"the site. Aside from "
+"providing some useful "
+"diagnostic information, "
+"such as browser and "
+"network information, it "
+"also provides a server-"
+"side mechanism for "
+"continually revalidating "
+"the session (i.e. "
+"regardless of whether or "
+"not the user's computer "
+"has the right cookie)."
+msgstr ""
+
+#: admin/tools.php:109
+msgid ""
+"If something doesn't "
+"look right, you can "
+"revoke the session and "
+"that user will be "
+"immediately logged out. "
+"Just be sure to "
+"regenerate that "
+"account's password "
+"afterward or else "
+"they'll be able to hop "
+"right back in."
+msgstr ""
+
+#: admin/tools.php:118
+#: lib/blobfolio/wp/meow/admin.php:596
+#: lib/blobfolio/wp/meow/admin.php:597
+#: lib/blobfolio/wp/meow/admin.php:685
+msgid "Tools"
+msgstr ""
+
+#: admin/tools.php:132
+msgid "Passwords"
+msgstr ""
+
+#: admin/tools.php:135
+msgid "Users"
+msgstr ""
+
+#: admin/tools.php:137
+#: admin/tools.php:261
+msgid "Sessions"
+msgstr ""
+
+#: admin/tools.php:153
+msgid "Reset All Passwords"
+msgstr ""
+
+#: admin/tools.php:161
+msgid ""
+"Send Email Notifications"
+msgstr ""
+
+#: admin/tools.php:168
+msgid "Email Message"
+msgstr ""
+
+#: admin/tools.php:173
+msgid ""
+"Note: the appropriate "
+"link will be appended "
+"automatically."
+msgstr ""
+
+#: admin/tools.php:176
+#: admin/tools.php:201
+msgid "Reset"
+msgstr ""
+
+#: admin/tools.php:178
+#: admin/tools.php:236
+msgid ""
+"Note: this will probably "
+"log you out."
+msgstr ""
+
+#: admin/tools.php:192
+msgid "Fix MD5 Passwords"
+msgstr ""
+
+#: admin/tools.php:197
+msgid ""
+"The site database "
+"contains one or more "
+"passwords encrypted with "
+"the woefully insecure "
+"MD5 hasing algorithm. WP "
+"will re-encrypt them "
+"automatically the next "
+"time the user logs in, "
+"but that may not be soon "
+"enough."
+msgstr ""
+
+#: admin/tools.php:199
+msgid ""
+"Click the button below "
+"to reset and re-encrypt "
+"these passwords now."
+msgstr ""
+
+#: admin/tools.php:203
+msgid ""
+"Note: the affected users "
+"will need to complete "
+"the Forgot Password "
+"process to regain access "
+"to the site."
+msgstr ""
+
+#: admin/tools.php:217
+msgid "Default Username"
+msgstr ""
+
+#: admin/tools.php:224
+#: admin/tools.php:229
+#: admin/tools.php:233
+msgid "Rename"
+msgstr ""
+
+#: admin/tools.php:251
+msgid ""
+"Active User Sessions"
+msgstr ""
+
+#: admin/tools.php:258
+msgid "ID"
+msgstr ""
+
+#: admin/tools.php:259
+msgid "User"
+msgstr ""
+
+#: admin/tools.php:260
+msgid "Login"
+msgstr ""
+
+#: admin/tools.php:293
+msgid "Revoke Session"
+msgstr ""
+
+#: admin/tools.php:299
+msgid ""
+"Your Current Session"
+msgstr ""
+
+#: admin/tools.php:324
+msgid "Command Line"
+msgstr ""
+
+#: admin/tools.php:328
+#, php-format
+msgid ""
+"These and other tools "
+"can also be accessed via "
+"%s!"
+msgstr ""
+
+#: admin/tools.php:333
+msgid ""
+"For instructions, type "
+"the following from your "
+"site root:"
+msgstr ""
+
+#: bootstrap-fallback.php:33
+#: lib/blobfolio/wp/meow/admin.php:40
+msgid ""
+"PHP 5.6.0 or newer is "
+"required."
+msgstr ""
+
+#: bootstrap-fallback.php:37
+#: lib/blobfolio/wp/meow/admin.php:44
+#: lib/blobfolio/wp/meow/cli.php:30
+#: lib/blobfolio/wp/meow/cli/activity.php:32
+#: lib/blobfolio/wp/meow/cli/jail.php:31
+#: lib/blobfolio/wp/meow/cli/security.php:32
+#: lib/blobfolio/wp/meow/cli/settings.php:31
+msgid ""
+"This plugin cannot be "
+"used on Multi-Site."
+msgstr ""
+
+#: bootstrap-fallback.php:41
+msgid ""
+"The bcmath PHP extension "
+"is required."
+msgstr ""
+
+#: bootstrap-fallback.php:67
+#: lib/blobfolio/wp/meow/admin.php:111
+#, php-format
+msgid ""
+"Your server does not "
+"meet the requirements "
+"for running %s. You or "
+"your system "
+"administrator should "
+"take a look at the "
+"following:"
+msgstr ""
+
+#: bootstrap-fallback.php:85
+#, php-format
+msgid ""
+"As a *stopgap*, you can "
+"%s the Apocalypse Meow "
+"plugin to the legacy *20."
+"x* series. The legacy "
+"series *will not* "
+"receive updates or "
+"development support, so "
+"please ultimately plan "
+"to remove the plugin or "
+"upgrade your server "
+"environment."
+msgstr ""
+
+#: bootstrap-fallback.php:86
+msgid "downgrade"
+msgstr ""
+
+#: bootstrap-fallback.php:122
+msgid ""
+"The plugin has been "
+"automatically disabled."
+msgstr ""
+
+#: bootstrap-fallback.php:165
+msgid ""
+"This will downgrade to "
+"the legacy 20.2.0 "
+"release, which is "
+"compatible with PHP 5.4. "
+"Do not upgrade from the "
+"legacy version until "
+"your server meets the "
+"requirements of the "
+"current release."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:51
+#, php-format
+msgid ""
+"This plugin requires the "
+"PHP extension %s."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:59
+msgid ""
+"PHP must support basic "
+"hashing algorithms like "
+"SHA512."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:91
+msgid ""
+"The Apocalypse Meow "
+"license is not valid for "
+"this domain or plugin; "
+"premium features have "
+"been disabled."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:95
+msgid ""
+"The recommended PHP "
+"extension OpenSSL is "
+"missing; this will slow "
+"down some operations."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:99
+msgid ""
+"The recommended PHP "
+"extension Intl is "
+"missing; you will not be "
+"able to handle "
+"internationalized or "
+"unicode domains."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:530
+#: lib/blobfolio/wp/meow/admin.php:531
+msgid "Reference"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:563
+#: lib/blobfolio/wp/meow/admin.php:564
+msgid "Login Stats"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:624
+#: lib/blobfolio/wp/meow/admin.php:625
+msgid "Pro License"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/admin.php:689
+msgid "Enter License"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:105
+#: lib/blobfolio/wp/meow/login.php:193
+msgid ""
+"The form had expired. "
+"Please try again."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:112
+msgid ""
+"You must be logged in to "
+"complete this action."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:116
+msgid ""
+"You are not authorized "
+"to complete this action."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:122
+#: lib/blobfolio/wp/meow/cli.php:34
+#: lib/blobfolio/wp/meow/cli/activity.php:36
+#: lib/blobfolio/wp/meow/cli/jail.php:35
+#: lib/blobfolio/wp/meow/cli/security.php:36
+#: lib/blobfolio/wp/meow/cli/settings.php:35
+msgid ""
+"A premium license is "
+"required."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:390
+msgid ""
+"There is no login data "
+"to export."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:471
+msgid ""
+"The license is not valid."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:567
+msgid ""
+"A record ID is required."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:573
+msgid "Invalid record ID."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:737
+msgid "Other"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:803
+#: lib/blobfolio/wp/meow/cli/security.php:74
+#, php-format
+msgid "%d password has"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:804
+#: lib/blobfolio/wp/meow/cli/security.php:75
+#, php-format
+msgid "%d passwords have"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:805
+#: lib/blobfolio/wp/meow/cli/security.php:76
+msgid ""
+"been securely reset and "
+"rehashed."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:881
+#, php-format
+msgid ""
+"Password resets are "
+"underway with %d users "
+"remaining. Please do not "
+"leave this page."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:886
+#: lib/blobfolio/wp/meow/cli/security.php:304
+msgid ""
+"All user passwords have "
+"been reset."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:888
+msgid ""
+"Notification emails have "
+"been sent as well."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:890
+#: lib/blobfolio/wp/meow/ajax.php:972
+msgid ""
+"This page will reload in "
+"a few seconds to ensure "
+"you are still logged in."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:943
+#, php-format
+msgid ""
+"\"%s\" is not a valid "
+"username."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:950
+#, php-format
+msgid ""
+"The user \"%s\" already "
+"exists."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:957
+#, php-format
+msgid ""
+"The login \"%s\" was "
+"replaced with \"%s\"."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/ajax.php:1101
+msgid ""
+"The session has been "
+"deleted."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:76
+msgid "Author"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:78
+msgid "Copyright"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:79
+msgid "Developer"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:80
+msgid "Domains"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:81
+msgid "Download"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:83
+msgid "External"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:84
+msgid "Installed"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:85
+msgid "Latest"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:86
+msgid "License"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:87
+msgid "Must-Use"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:88
+msgid "N/A"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:91
+msgid "Plugin"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:93
+msgid "Purchased"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:94
+msgid "Single"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli.php:97
+msgid "Upgrade"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:120
+msgid ""
+"Invalid record type. "
+"Should be \"ban\", \"fail"
+"\", or \"success\"."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:139
+#: lib/blobfolio/wp/meow/cli/jail.php:147
+msgid "Persistence"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:140
+msgid "Pardoned"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:160
+msgid ""
+"No login data is "
+"available."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:214
+#, php-format
+msgid ""
+"%d matching login record "
+"was found."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:215
+#, php-format
+msgid ""
+"%d matching login "
+"records were found."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:225
+#: lib/blobfolio/wp/meow/cli/activity.php:520
+#: lib/blobfolio/wp/meow/cli/jail.php:166
+#: lib/blobfolio/wp/meow/cli/settings.php:99
+msgid ""
+"The export file path is "
+"not valid."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:231
+#: lib/blobfolio/wp/meow/cli/activity.php:526
+#: lib/blobfolio/wp/meow/cli/jail.php:172
+#: lib/blobfolio/wp/meow/cli/settings.php:106
+msgid ""
+"already exists. Use --"
+"overwrite to replace it."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:239
+#: lib/blobfolio/wp/meow/cli/activity.php:534
+#: lib/blobfolio/wp/meow/cli/jail.php:180
+msgid ""
+"The data has been saved "
+"to"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:244
+#: lib/blobfolio/wp/meow/cli/activity.php:539
+#: lib/blobfolio/wp/meow/cli/jail.php:185
+#: lib/blobfolio/wp/meow/cli/settings.php:126
+msgid ""
+"The data could not be "
+"written to"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:284
+msgid ""
+"This action requires a "
+"date, a number of days, "
+"or \"all\"."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:301
+msgid ""
+"The date could not be "
+"parsed. Please try YYYY-"
+"MM-DD format."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:316
+msgid ""
+"No records were removed."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:324
+#, php-format
+msgid ""
+"%d record was deleted."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:325
+#, php-format
+msgid ""
+"%d records were deleted."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:396
+#: lib/blobfolio/wp/meow/cli/security.php:159
+msgid ""
+"This user login is not "
+"valid."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:424
+msgid ""
+"No matching sessions "
+"were found."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:429
+msgid "User ID"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:432
+msgid "Session ID"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:436
+#: lib/blobfolio/wp/meow/login.php:464
+msgid "Browser"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:510
+#, php-format
+msgid ""
+"%d matching login "
+"session was found."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/activity.php:511
+#, php-format
+msgid ""
+"%d matching login "
+"sessions were found."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:113
+msgid ""
+"The jail is currently "
+"empty!"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:148
+msgid "Community"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:156
+#, php-format
+msgid ""
+"There is currently %d "
+"banned network."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:157
+#, php-format
+msgid ""
+"There are currently %d "
+"banned networks."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:242
+msgid "is already banned."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:255
+msgid ""
+"cannot be banned because "
+"it is either whitelisted "
+"or belongs to the server."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:264
+#: lib/blobfolio/wp/meow/cli/jail.php:362
+#: lib/blobfolio/wp/meow/cli/jail.php:532
+msgid ""
+"At least one valid "
+"network address is "
+"required."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:304
+#, php-format
+msgid ""
+"%d network has been "
+"banned."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:305
+#, php-format
+msgid ""
+"%d networks have been "
+"banned."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:353
+msgid ""
+"is not currently banned."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:394
+#, php-format
+msgid ""
+"%d ban has been pardoned."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:395
+#, php-format
+msgid ""
+"%d bans have been "
+"pardoned."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:434
+#: lib/blobfolio/wp/meow/cli/jail.php:549
+msgid ""
+"No changes were made to "
+"the whitelist."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:441
+#, php-format
+msgid ""
+"%d network was added to "
+"the whitelist."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:442
+#, php-format
+msgid ""
+"%d networks were added "
+"to the whitelist."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:556
+#, php-format
+msgid ""
+"%d network was removed "
+"from the whitelist."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/jail.php:557
+#, php-format
+msgid ""
+"%d networks were removed "
+"from the whitelist."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:67
+msgid ""
+"No passwords were hashed "
+"with MD5."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:170
+#, php-format
+msgid ""
+"All sessions for %s have "
+"been revoked."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:184
+msgid ""
+"The session has been "
+"revoked."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:190
+#, php-format
+msgid ""
+"No session matching %s "
+"was found."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:234
+msgid ""
+"The original username is "
+"not valid."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:240
+#, php-format
+msgid ""
+"The username %s does not "
+"exist."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:248
+msgid ""
+"The replacement username "
+"is not valid."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:254
+#, php-format
+msgid ""
+"The username %s already "
+"exists."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:263
+#, php-format
+msgid ""
+"The username %s has been "
+"renamed to %s."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/security.php:271
+msgid ""
+"An error was "
+"encountered; the user "
+"may or may not have been "
+"renamed successfully."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:121
+msgid ""
+"The settings have been "
+"exported to"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:166
+msgid ""
+"The import file path is "
+"not valid."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:174
+msgid ""
+"The import file could "
+"not be read or is "
+"corrupt."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:184
+msgid ""
+"The settings were "
+"successfully imported."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:208
+msgid "Section"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:209
+msgid "Setting"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:210
+msgid "Value"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:211
+msgid "Constant"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/cli/settings.php:212
+msgid "Readonly"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/core.php:191
+msgid ""
+"Author archives are not "
+"accessible by user ID."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/core.php:192
+msgid "Invalid Request"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/core.php:226
+msgid ""
+"WP-REST user access is "
+"disabled."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/core.php:297
+msgid ""
+"The WP-REST API has been "
+"disabled."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/core.php:313
+msgid ""
+"The WP-REST API is only "
+"available to "
+"authenticated users."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/license.php:478
+#, php-format
+msgid ""
+"The required method \"%s"
+"\" does not exist for %s"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:156
+#: lib/blobfolio/wp/meow/login.php:593
+msgid ""
+"For security reasons, "
+"logins from your network "
+"are temporarily "
+"prohibited. Please try "
+"again later."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:157
+msgid "Login Denied"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:193
+#: lib/blobfolio/wp/meow/login.php:593
+msgid "ERROR:"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:451
+msgid "Hi"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:454
+#, php-format
+msgid ""
+"This is an automated "
+"alert to inform you that "
+"your account at %s has "
+"been accessed from a new "
+"network address."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:459
+#, php-format
+msgid ""
+"If this was not you, "
+"immediately visit %s and "
+"reset your password. You "
+"should also end all "
+"other sessions and make "
+"sure no unauthorized "
+"changes have been made "
+"to your account."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:463
+msgid "Login Time"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:467
+msgid ""
+"This email has been sent "
+"to"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:469
+msgid "Regards,"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:470
+msgid "All at"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:477
+msgid "Login Alert"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:582
+msgid ""
+"Login attempts remaining"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:905
+#, php-format
+msgid ""
+"\"%s\" is actually one "
+"of the most common "
+"passwords on the "
+"Internet. Please try "
+"something else!"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:913
+msgid ""
+"The password must "
+"contain at least one "
+"letter."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:919
+msgid ""
+"The password must "
+"contain at least one "
+"uppercase letter and one "
+"lowercase letter."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:924
+msgid ""
+"The password must "
+"contain at least one "
+"number."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:929
+msgid ""
+"The password must "
+"contain at least one non-"
+"alphanumeric symbol."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:935
+#, php-format
+msgid ""
+"The password must be at "
+"least %d characters long."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:944
+#, php-format
+msgid ""
+"The password must "
+"consist of at least %d "
+"different characters."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1104
+msgid "letter"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1107
+msgid "uppercase letter"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1108
+msgid "lowercase letter"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1112
+msgid "number"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1116
+msgid "symbol"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1120
+msgid "Welcome back!"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1121
+msgid ""
+"Before going about your "
+"business, please choose "
+"a new password for "
+"yourself."
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1123
+msgid ""
+"The site security policy "
+"requires that passwords:"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1125
+#, php-format
+msgid ""
+"be at least %d "
+"characters in length"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1129
+#, php-format
+msgid ""
+"contain no fewer than %d "
+"different characters"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/login.php:1133
+#, php-format
+msgid ""
+"contain at least one of "
+"each of the following: %s"
+msgstr ""
+
+#: lib/blobfolio/wp/meow/tools.php:287
+msgid "Password Reset"
+msgstr ""

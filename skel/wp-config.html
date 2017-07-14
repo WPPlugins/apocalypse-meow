@@ -1,0 +1,41 @@
+/**
+ * Apocalypse Meow
+ */
+
+// Login/Brute-Force.
+define('MEOW_LOGIN_KEY', '{{ forms.settings.login.key | meowString }}');
+define('MEOW_LOGIN_FAIL_LIMIT', {{ forms.settings.login.fail_limit | meowInt }});
+define('MEOW_LOGIN_SUBNET_FAIL_LIMIT', {{ forms.settings.login.subnet_fail_limit | meowInt }});
+define('MEOW_LOGIN_FAIL_WINDOW', {{ forms.settings.login.fail_window * 60 | meowInt }}); // Seconds.
+define('MEOW_LOGIN_RESET_ON_SUCCESS', {{ forms.settings.login.reset_on_success | meowBool }});
+define('MEOW_LOGIN_NONCE', {{ forms.settings.login.nonce | meowBool }});
+define('MEOW_LOGIN_ALERT_ON_NEW', {{ forms.settings.login.alert_on_new | meowBool }});
+define('MEOW_LOGIN_ALERT_BY_SUBNET', {{ forms.settings.login.alert_by_subnet | meowBool }}); // Requires …ALERT_ON_NEW=true.
+
+// Community Pool.
+define('MEOW_LOGIN_COMMUNITY', {{ forms.settings.login.community | meowBool }});
+
+// Data Retention.
+define('MEOW_PRUNE_ACTIVE', {{ forms.settings.prune.active | meowBool }});
+define('MEOW_PRUNE_LIMIT', {{ forms.settings.prune.limit | meowInt }}); // Days. Requires …ACTIVE=true.
+
+// Password Requirements.
+define('MEOW_PASSWORD_ALPHA', '{{ forms.settings.password.alpha | meowString }}');
+define('MEOW_PASSWORD_NUMERIC', '{{ forms.settings.password.numeric | meowString }}');
+define('MEOW_PASSWORD_SYMBOL', '{{ forms.settings.password.symbol | meowString }}');
+define('MEOW_PASSWORD_LENGTH', {{ forms.settings.password.length | meowInt }});
+
+// User Enumeration.
+define('MEOW_CORE_ENUMERATION', {{ forms.settings.core.enumeration | meowBool }});
+define('MEOW_CORE_ENUMERATION_DIE', {{ forms.settings.core.enumeration_die | meowBool }}); // Requires …ENUMERATION=true.
+define('MEOW_CORE_ENUMERATION_FAIL', {{ forms.settings.core.enumeration_fail | meowBool }}); // Requires …ENUMERATION=true.
+
+// Core/Template.
+define('MEOW_CORE_FILE_EDIT', {{ forms.settings.core.file_edit | meowBool }});
+define('MEOW_CORE_WP_REST', '{{ forms.settings.core.wp_rest | meowString }}');
+define('MEOW_CORE_XMLRPC', {{ forms.settings.core.xmlrpc | meowBool }});
+
+define('MEOW_TEMPLATE_ADJACENT_POSTS', {{ forms.settings.template.adjacent_posts | meowBool }});
+define('MEOW_TEMPLATE_GENERATOR_TAG', {{ forms.settings.template.generator_tag | meowBool }});
+define('MEOW_TEMPLATE_NOOPENER', {{ forms.settings.template.noopener | meowBool }});
+define('MEOW_TEMPLATE_README', {{ forms.settings.template.readme | meowBool }});
